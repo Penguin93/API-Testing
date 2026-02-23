@@ -44,3 +44,7 @@ def remove_pokemon(name):
         print(f"{name.capitalize()} removed from Pokédex.")
     else:
         print("Pokémon not found in your Pokédex.")
+
+print(search_pokemon('Pikachu'))
+view_pokedex()
+remove_pokemon('Pikachu')
