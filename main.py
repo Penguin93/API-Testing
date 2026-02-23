@@ -11,7 +11,8 @@ def main():
 
         if choice == "1":
             name = input("Enter Pokémon name or ID: ")
-            search_pokemon(name) #Replace with function later
+            search_pokemon(name) 
+            #Replace with function later
         elif choice == "2":
             name = input("Enter Pokémon name to add: ")
             add_pokemon(name) #Replace with function later
