@@ -12,15 +12,14 @@ def main():
         if choice == "1":
             name = input("Enter Pokémon name or ID: ")
             search_pokemon(name) 
-            #Replace with function later
         elif choice == "2":
             name = input("Enter Pokémon name to add: ")
-            add_pokemon(name) #Replace with function later
+            add_pokemon(name) 
         elif choice == "3":
-            view_pokedex() #Replace with function later
+            view_pokedex() 
         elif choice == "4":
             name = input("Enter Pokémon name to remove: ")
-            remove_pokemon(name) #Replace with function later
+            remove_pokemon(name) 
         elif choice == "5":
             print("Exiting Pokédex.")
             break

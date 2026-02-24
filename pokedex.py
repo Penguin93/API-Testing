@@ -18,8 +18,6 @@ def search_pokemon(name):
             "weight": data["weight"],
             "types": [t["type"]["name"] for t in data["types"]]
         } 
-        print (data)
-
     else:
         print("Pokémon not found.")
         return None
